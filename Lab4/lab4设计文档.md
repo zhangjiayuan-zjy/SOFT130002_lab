@@ -1,5 +1,5 @@
 首先是主页的截图
-  ![Image text](./images/index.png)
+![index的截图](./images/index.png)
 
 
 index界面可以分为4个部分 ，分别为nav 轮播图 图片展示 页脚。总体布局为自上而下一般布局。
