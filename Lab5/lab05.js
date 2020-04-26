@@ -29,7 +29,7 @@ let mul = document.getElementById("mul");
 let time=window.setInterval(timeTest,5000);
 let count=0;
 function timeTest(){
-    if (count==10||new Date().getSeconds()==0){
+    if (count==10||(new Date().getSeconds()==0&&count!=0)){
         clearInterval(time);
     }
     else {
