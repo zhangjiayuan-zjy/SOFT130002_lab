@@ -12,9 +12,9 @@ window.ondblclick=function () {
         var item=document.createElement("div");
         item.className="item item"+i;
 
-        var h3=document.createElement("h3");
-        h3.innerText="Genre: "+works[i].tips;
-        item.appendChild(h3);
+        var h4=document.createElement("h4");
+        h4.innerText="Genre: "+works[i].tips;
+        item.appendChild(h4);
 
         var inner1=document.createElement("div");
         inner1.className="inner-box";
