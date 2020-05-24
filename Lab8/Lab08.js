@@ -9,6 +9,7 @@ let spans=document.getElementsByTagName("span");
 let auto=setInterval(autoPlay,2000);
 let tds=document.getElementsByTagName("td");
 let inputs=new Array(12);
+let contain=document.querySelector(".container");
 
 
 /*Global Variable Area */
@@ -78,13 +79,13 @@ function autoPlay() {
     index++;
     spans[index-1].className="on";
 }
-wrap.addEventListener("mouseout",function () {
+contain.addEventListener("mouseout",function () {
     auto=setInterval(autoPlay,2000);
     
 },false);
-wrap.addEventListener("mouseover",function () {
+contain.addEventListener("mouseover",function () {
     clearInterval(auto);
-})
+},false)
 
 /*Code Here*/
 
